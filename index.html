@@ -1,0 +1,111 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+</head>
+<body style="background-color:black;">
+	    <script src="utilities/jquery.js"></script>
+
+	<style>
+		.browser {
+			width: 600px;
+			height: 200px;
+			margin: 0 auto;
+		}
+	</style>
+
+<div class="browser">
+  <div><img src="img/thumbs/thumb1.png" /></div>
+  <div><img src="img/thumbs/thumb2.png" /></div>
+  <div><img src="img/thumbs/thumb3.png" /></div>
+  <div><img src="img/thumbs/thumb4.png" /></div>
+  <div><img src="img/thumbs/thumb5.png" /></div>
+  <div><img src="img/thumbs/thumb6.png" /></div>
+  <div><img src="img/thumbs/thumb7.png" /></div>
+  <div><img src="img/thumbs/thumb8.png" /></div>
+  <div><img src="img/thumbs/thumb9.png" /></div>
+  <div><img src="img/thumbs/thumb10.png" /></div>
+  <div><img src="img/thumbs/thumb11.png" /></div>
+  <div><img src="img/thumbs/thumb12.png" /></div>
+  <div><img src="img/thumbs/thumb13.png" /></div>
+  <div><img src="img/thumbs/thumb14.png" /></div>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+<script>
+	$(document).ready(function(){
+	$('.browser').slick({
+  dots: false,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  arrows: true,
+  touchMove: false,
+  responsive: [
+    {
+      breakpoint: 1600,
+      settings: {
+  dots: false,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  arrows: true,
+  touchMove: false
+      }
+    },
+    {
+      breakpoint: 1370,
+      settings: {
+dots: false,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  arrows: true,
+  touchMove: false
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+dots: false,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  arrows: true,
+  touchMove: false
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+dots: false,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  arrows: true,
+  touchMove: false
+      }
+    }
+  ]
+	});
+});
+</script>	
+	
+	
+	
+	
+<script type="text/javascript" src="slick/slick.min.js"></script>
+	
+	
+</body>
+</html>

@@ -1,0 +1,71 @@
+@media (min-width: 1024px) {
+
+#content{
+	margin-top: 129px;
+}
+#nav-wrapper{
+width: 1024px;
+}
+#wrapper{
+width: 1024px;
+}
+
+#nav-menu-active {
+top: 43px;
+left: 323px;
+	}
+#nav-menu-button {
+	left: 260px;
+}
+#nav-menu-button-active {
+	left: 260px;
+}
+.footer {
+width: 944px;
+position: static;
+margin-top: 90px;
+}
+.copyright {
+	padding-right: 0px;
+}
+.home-hero-image {
+height: 457px;
+width: 560px;
+margin-top: 25px;
+}
+/* OFF HOME */
+
+.slider {
+	width: 913px;
+}
+
+/* OFF BROWSER */
+
+.breadcrumbs-project-page {
+	display: block;
+}
+.project-left-panel {
+margin-top: 0px;
+}
+.project-text {
+	padding-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

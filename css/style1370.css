@@ -1,0 +1,53 @@
+@media (min-width: 1370px) {
+
+
+#nav-wrapper{
+width: 1370px;
+}
+#wrapper{
+width: 1370px;
+}
+#nav-menu-button-active {
+	left: 260px;
+}
+.footer {
+width: 1290px;
+}
+.home-hero-image {
+height: 457px;
+width: 560px;
+margin-top: 16px;
+}
+
+/* OFF HOME */
+
+
+.slider {
+	width: 1258px;
+}
+/* OFF BROWSER */
+.project-right-panel {
+position: relative;
+}
+.project-text {
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
